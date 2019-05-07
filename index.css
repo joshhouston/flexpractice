@@ -1,0 +1,139 @@
+body,html {
+    background-color: #0a0470;
+    color: #FFF;
+    min-height: 100vh;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-nav {
+    margin-top: 3vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+}
+
+.left-side h4 {
+    font-weight: 100;
+}
+
+.left-side i {
+    margin-top: 0.5em;
+    margin-right: 1em;
+}
+
+.downmid {
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 15em;
+}
+
+.downmid p {
+    font-weight: 700;
+}
+
+.nav-button {
+    margin-right: 10em;
+    align-items: center;
+}
+
+#navb {
+    background-color: transparent;
+    border: 1px solid white;
+    -webkit-border-radius: 32px;
+    -moz-border-radius: 32px;
+    border-radius: 32px;
+    color: white;
+    padding: 15px 40px;
+    font-weight: 700;
+}
+
+
+.main {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    height: 100vh;
+    margin-top: 10vh;
+}
+
+.sideways {
+    position: fixed;
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: row nowrap;
+    width: 10%;
+    height: 100vh;
+}
+
+.sideways p {
+    display: flex;
+    position: absolute;
+    transform: rotate(-90deg);
+    width: 100%;
+    justify-content: flex-start;
+    margin-top: 50vh;
+    margin-right: 2vh;
+}
+
+.main-mid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+.mid-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.mid-text h1 {
+    font-size: 3.5em;
+    font-style: bold;
+}
+
+.mid-text p {
+    line-height: 2em;
+    margin: 0
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-bottom: 35vh;
+    margin-right: 2em;
+}
+
+.icons i {
+    height: 30px;
+    width: 30px;
+    border: 1px solid white;
+    margin: 0.3em;
+    padding: 0.3em;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.mid-butt button {
+    background-color: #FFF;
+    border: 0;
+    color: blue;
+    border-radius: 38px;
+    padding: 20px 55px;
+    margin-top: 10vh;
+}
